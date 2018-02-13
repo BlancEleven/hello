@@ -1,3 +1,3 @@
-defmodule HelloWeb.Post	View do
+defmodule HelloWeb.PostView do
 	use HelloWeb, :view
 end
