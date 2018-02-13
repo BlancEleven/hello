@@ -7,6 +7,8 @@ I don't expect it to be useful to anyone, so if you stumble across it I appologi
 -  [x] Up and Running
 -  [x] Adding Pages
 -  [ ] Routing
+-  [ ] Plug
+-  [ ] Endpoint 
 -  [ ] Controllers
 -  [ ] Views
 -  [ ] Templates
