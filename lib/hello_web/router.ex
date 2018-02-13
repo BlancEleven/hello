@@ -18,8 +18,12 @@ defmodule HelloWeb.Router do
 
     get "/", PageController, :index
     get "/hello", HelloController, :index
+    #http://localhost:4000/dave == Hello Dave!
     get "/hello/:messenger", HelloController, :showDefault
+    #http://localhost:4000/hola/dave == Hola Dave! 
     get "/hello/:messenger/:greeting", HelloController, :show
+
+    resources "/users", UserController
   end
 
   # Other scopes may use custom stacks.
