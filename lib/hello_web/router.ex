@@ -25,7 +25,12 @@ defmodule HelloWeb.Router do
 
     resources "/users", UserController
     resources "/posts", PostController, only: [:index, :show]
-    
+
+
+    #/users/posts
+    resources "/users", UserController do
+      resources "/posts", PostController
+    end    
   end
 
   # Other scopes may use custom stacks.
